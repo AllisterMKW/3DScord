@@ -43,5 +43,5 @@ jobs:
       with:
           name: 3DScord
           path: | 
-            /*.cia
-            /*.3dsx
+            ./*.cia
+            ./*.3dsx
