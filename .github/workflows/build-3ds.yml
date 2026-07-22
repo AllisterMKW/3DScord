@@ -33,7 +33,7 @@ jobs:
         cd ..
     - name: Build CIA			#Build the code
       continue-on-error: true
-      working-directory: ./Axiom
+      working-directory: .
       run: | 
         sudo dkp-pacman -S --noconfirm 3dstools	tex3ds #if any other package is requiered can be installed
         cd app
@@ -43,5 +43,5 @@ jobs:
       with:
           name: 3DScord
           path: | 
-            /build/*.cia
-            /build/*.3dsx
+            /*.cia
+            /*.3dsx
