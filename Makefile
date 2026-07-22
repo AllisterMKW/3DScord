@@ -48,7 +48,7 @@ APP_INFO := $(RESOURCES)/AppInfo
 BANNER_AUDIO := $(RESOURCES)/audio
 BANNER_IMAGE := $(RESOURCES)/banner
 ICON := $(RESOURCES)/icon.png
-LOGO := $(RESOURCES)/logo.bcma.lz
+LOGO := $(RESOURCES)/icon.png
 RSF := $(TOPDIR)/$(RESOURCES)/$(TARGET).rsf
 
 #---------------------------------------------------------------------------------
